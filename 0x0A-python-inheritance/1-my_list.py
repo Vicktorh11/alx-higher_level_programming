@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 """
-Contains the MyList Class
+Contains the MyList class
 """
 
 
-def print_sorted(self):
+class MyList(list):
     """a subclass of list"""
     def __init__(self):
         """initializes the object"""
